@@ -1,24 +1,11 @@
 var botao = document.querySelector('input#botao')
 
-botao.addEventListener('click',registroNome )
+botao.addEventListener('click', registroNome)
 
-
-function registroNome(){
-
+function registroNome() {
     var nome = prompt("Qual o seu nome?")
 
+    var idade = prompt(`${nome} qual a sua idade?`)
 
-
-    var botao2 = document.querySelector('input#botao')
-
-    botao2.addEventListener('click',registroIdade) 
-
-
-    
-}
-
-function registroIdade(){
-
-    var idade = (prompt(`Olá ${nome}, qual a sua idade?`))
-
+    alert(`Ola ${nome}, tu tem ${idade} anus`)
 }
