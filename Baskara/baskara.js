@@ -26,8 +26,8 @@ function insereTextoFinal(equacaoAtualTexto, deltaTexto, delta) {
     const tag = document.createElement("p");
 
     const conteudo = document.createTextNode(
-        `A equação atual é ${equacaoAtualTexto} <br>
-        O calculo realizado será ${deltaTexto} <br>
+        `A equação atual é ${equacaoAtualTexto} 
+        O calculo realizado será ${deltaTexto} 
         O valor calculado foi DELTA = ${delta}
         `
     );
